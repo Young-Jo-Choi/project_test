@@ -51,6 +51,19 @@
     ```
     poetry init
     ```
+    5. package 설치
+    ```
+    poetry add [package]
+    ```
+    6. virtual env 
+    ```
+    poetry shell
+    ```
+    -----
+    ```
+    source .venv/bin/activate
+    source /home/choiyj/.cache/pypoetry/virtualenvs/project-test-KRnPQjp1-py3.7/bin/activate
+    ```
 3. Project Structure
     ```
     mkdir -p data/raw data/processed src
@@ -77,10 +90,19 @@
     ```
     2. git add
     3. git commit
-    
+
 5. Github 연결
     1. git remote add origin https://github.com/Young-Jo-Choi/project_test.git
     2. git branch -M main
     3. git push -u origin main
     4. git push
 
+---
+# Only pip
+(pyenv local 3.7.13)
+1. project 폴더 만들기
+2. python -m venv .venv
+3. source .venv/bin/activate 
+    - vscode에서는 python version(껏다키면 됨)
+4. 사용함.
+5. deactivate
