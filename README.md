@@ -53,6 +53,10 @@
     ```
 3. Project Structure
     ```
+    mkdir -p data/raw data/processed src
+    ```
+
+    ```
         .
     ├── data
     │   ├── processed
@@ -71,5 +75,12 @@
     ```
     git init
     ```
-    2. 
+    2. git add
+    3. git commit
+    
 5. Github 연결
+    1. git remote add origin https://github.com/Young-Jo-Choi/project_test.git
+    2. git branch -M main
+    3. git push -u origin main
+    4. git push
+
