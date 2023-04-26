@@ -106,3 +106,8 @@
     - vscode에서는 python version(껏다키면 됨)
 4. 사용함.
 5. deactivate
+
+# jupyter connection
+1. pip install jupyter
+2. pip install ipykernel
+3. python -m ipykernel install --user --name [.venv] --display-name "[.venv]"
