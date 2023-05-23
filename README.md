@@ -111,3 +111,7 @@
 1. pip install jupyter
 2. pip install ipykernel
 3. python -m ipykernel install --user --name [.venv] --display-name "[.venv]"
+
+## conda init
+1. /home/miniconda3/condabin/conda init
+2. source ~/.bashrc
