@@ -103,7 +103,7 @@
 1. project 폴더 만들기
 2. python -m venv .venv
 3. source .venv/bin/activate 
-    - vscode에서는 python version(껏다키면 됨)
+    - vscode에서는 python version(껐다 키면 됨)
 4. 사용함.
 5. deactivate
 
